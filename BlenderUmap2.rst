@@ -83,7 +83,7 @@ General Use
  .. image:: ./image_assets/arrow.png
 2. Click the button the says ``Umap``.
 3. Enter your games path, AES key, export path (where you want dumped files to go), and UE Version.
-4. For the package, head over `here <>`_ for how to get that.
+4. For the package, head over `here <https://github.com/M4X40/BlenderUmapGuides/blob/main/BlenderUmap2.rst#finding-your-package>`_ for how to get that.
 5. Enter any settings you want and click ``Import``.
   **NOTE: IF YOU WANT MATERIALS, TURN OFF** ``Generic Shader``.
 
