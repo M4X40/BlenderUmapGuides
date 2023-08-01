@@ -44,7 +44,7 @@ This process will also take time. If you don't have patience, then this isn't th
 
 ----
 
-Now that all of that is out of the way, lets get into the build phase
+Now that all of that is out of the way, lets get into the build phase.
 
 Downloading / Building the addon (for Free Github Users)
 ========================================================
