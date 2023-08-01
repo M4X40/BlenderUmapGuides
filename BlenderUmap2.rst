@@ -2,7 +2,7 @@ This specific version of BlenderUmap is an unofficial fork, but don't let that s
 This guide will go over how to install and optimal settings.
 
 If you are using the Free Github version, you will need to build the addon yourself (we cover this).
-For patrons, you can skip to `here`_ for installation.
+For patrons, you can skip to .. _install: `here`_ for installation.
 
 I **HIGHLY RECCOMEND** to fully read this guide and not skip anything unless told explicitly so. This is for you, not to waste your time.
 
@@ -63,7 +63,7 @@ And that is it! You have successfully built BlenderUmap2!
 Installation to Blender
 =======================
 
-.. _here:
+.. _install:
 
 Coming soon... Its midnight and I need sleep.
 
