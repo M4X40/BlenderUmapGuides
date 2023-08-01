@@ -46,8 +46,6 @@ This process will also take time. If you don't have patience, then this isn't th
 
 Now that all of that is out of the way, lets get into the build phase
 
-----
-
 Downloading / Building the addon (for Free Github Users)
 ========================================================
 1.  Download the source code for BlenderUmap2 `here <https://github.com/MinshuG/BlenderUmap2/archive/refs/heads/better-materials.zip>`_
