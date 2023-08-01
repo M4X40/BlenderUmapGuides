@@ -28,6 +28,12 @@ Any version of Python 3 **SHOULD** work, however this is not confirmed. This wil
 You can download python `here <https://www.python.org/downloads/>`_. 
   **MAKE SURE** to check ``Add python to PATH`` once installation is finished.
 
+FModel
+------
+
+FModel is an application for looking through packages of UE games, and we will use it to find what map you want.
+Download FModel `here <https://fmodel.app/download>`_.
+
 Some Technical Competence / Patience
 ------------------------------------
 
@@ -73,7 +79,28 @@ Installation to Blender
 General Use
 ===========
 
-Coming soon... Its midnight and I need sleep.
+1. Click and drag this arrow to the left, opening this menu:
+ .. image:: ./image_assets/arrow.png
+2. Click the button the says ``Umap``.
+3. Enter your games path, AES key, export path (where you want dumped files to go), and UE Version.
+4. For the package, head over `here <>`_ for how to get that.
+
+Finding your Package
+====================
+
+1. Open FModel.
+2. Go to ``Directory > Selector``.
+3. Click the opposing arrows button at the bottom to open the Undetected Game menu,
+4. Type your game's name  in its respective field.
+5. For the directory, click the ellipsis (``...``), and navigate to ``[GAME PATH]\[gameName]\Content\Paks``.
+6. Click the plus (``+``) to the right of the ellipsis and then ``OK``. Then click ``OK`` again on the prompt that appears.
+7. Now go to ``Directory > AES`` and enter the game's AES key where prompted and click ``OK``.
+8. Enter the pak file for your game. If your game has multiple files, choose the one that makes the most sense to you.
+9. Look around and find the ``.umap`` file you want to port. Usually these will be in a \Maps\ folder.
+10. Once you find the file, right click it and go ``Copy > Package Path``. 
+  *SIDE NOTE: DO NOT CLICK ``Package Path w/o extension``*
+11. Back in Blender, paste this into the ``Package`` field.
+
 
 Optimal Settings for best performance / outcome
 ===============================================
