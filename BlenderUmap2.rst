@@ -6,8 +6,13 @@ For patrons, you can skip to ___here___ for installation.
 
 I **HIGHLY RECCOMEND** to fully read this guide and not skip anything unless told explicitly so. This is for you, not to waste your time.
 
+*Side Note for Github Users: The building process only documents how to do it on windows. A MacOS / Linux guide may come at a later date, but is not guarenteed.*
+
+----
 
 .. contents::
+
+----
 
 Requirements
 ============
@@ -31,10 +36,45 @@ If you are experiencing issues; Don't give up or ask for help immediately. Inste
 
 This process will also take time. If you don't have patience, then this isn't the hobby for you.
 
+----
+
+Now that all of that is out of the way, lets get into the build phase
+
+----
+
 Downloading / Building the addon (for Free Github Users)
 ========================================================
 1.  Download the source code for BlenderUmap2 `here <https://github.com/MinshuG/BlenderUmap2/archive/refs/heads/better-materials.zip>`_
 2.  Extract the .zip file however you desire and enter the folder.
 3.  In the address bar at the top, click the blank space in it and type ``cmd``, and press enter.
-4.  
+4.  Type the following command into the new Command Prompt window:
 
+>>> python make_release.py
+
+Or if that doesn't work: 
+
+>>> python3 make_release.py
+
+5. Wait for this to finish. This **WILL** take a while
+6. In the new ``Release`` folder, delete the ``MacOSX`` and ``Linux`` zip files, and just leave the windows one. This is the one we want.
+
+And that is it! You have successfully built BlenderUmap2!
+
+Installation to Blender
+=======================
+Coming soon... Its midnight and I need sleep.
+
+General Use
+===========
+
+Coming soon... Its midnight and I need sleep.
+
+Optimal Settings for best performance / outcome
+===============================================
+
+Coming soon... Its midnight and I need sleep.
+
+Troubleshooting
+===============
+
+Coming soon... Its midnight and I need sleep.
