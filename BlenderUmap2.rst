@@ -84,7 +84,8 @@ General Use
 2. Click the button the says ``Umap``.
 3. Enter your games path, AES key, export path (where you want dumped files to go), and UE Version.
 4. For the package, head over `here <https://github.com/M4X40/BlenderUmapGuides/blob/main/BlenderUmap2.rst#finding-your-package>`_ for how to get that.
-5. Enter any settings you want and click ``Import``.
+5. At the top of Blender, ``Window > Toggle System Console``, and move this somewhere else for now.
+6. Enter any settings you want and click ``Import``. This **WILL** TAKE TIME. For progress updates, check the system console we opened earlier.
   **NOTE: IF YOU WANT MATERIALS, TURN OFF** ``Generic Shader``.
 
 Finding your Package
@@ -107,9 +108,25 @@ Finding your Package
 Optimal Settings for best performance / outcome
 ===============================================
 
-Coming soon... Its midnight and I need sleep.
+Here is the settings I use every time I do a porting project:
+
+::
+
+  ☐ Use UE Custom Version
+  ☑ Read Materials
+  ☐ Export DDS When Possible
+  ☐ Export Building Foundations (this is a fortnite thing)
+  ☑ Export Hidden Actors
+  ☐ Dump Assets
+    Object Cache Size        0
+  ☑ Reuse Maps
+  ☑ Reuse Meshes
+  ☑ Use Cube as Fallback Mesh (this can sometimes mess things up but I personally havent had any issues with it.)
+  ☐ Use Generic Shader
+
+No need to do anything in ``Texture Mapping ``or ``Advanced Options``. Default is good.
 
 Troubleshooting
 ===============
 
-Coming soon... Its midnight and I need sleep.
+Coming soon...
