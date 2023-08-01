@@ -1,3 +1,9 @@
+BlenderUmap2 Guide
+%%%%%%%%%%%%%%%%%%
+
+Comprehensive guide to using BlenderUmap2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 This specific version of BlenderUmap is an unofficial fork, but don't let that scare you. BlenderUmap2 is much better than the original. 
 This guide will go over how to install and optimal settings.
 
