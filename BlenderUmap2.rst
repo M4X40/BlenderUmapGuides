@@ -65,7 +65,10 @@ Installation to Blender
 
 .. _install:
 
-Coming soon... Its midnight and I need sleep.
+1. Open Blender
+2. Go to ``Edit > Preferences > Add-Ons > Install``.
+3. Select the zip file you downloaded (github users will choose the windows file we made earlier).
+4. Enable with the check-box when installed.
 
 General Use
 ===========
