@@ -26,7 +26,7 @@ Python 3
 
 Any version of Python 3 **SHOULD** work, however this is not confirmed. This will be used to build the addon for Github users.
 You can download python `here <https://www.python.org/downloads/>`_. 
-  **MAKE SURE** to check ``Add python to PATH`` once installation is finished.
+   **MAKE SURE** to check ``Add python to PATH`` once installation is finished.
 
 FModel
 ------
