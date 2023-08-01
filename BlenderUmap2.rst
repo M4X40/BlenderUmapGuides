@@ -98,7 +98,7 @@ Finding your Package
 8. Enter the pak file for your game. If your game has multiple files, choose the one that makes the most sense to you.
 9. Look around and find the ``.umap`` file you want to port. Usually these will be in a \Maps\ folder.
 10. Once you find the file, right click it and go ``Copy > Package Path``. 
-  *SIDE NOTE: DO NOT CLICK ``Package Path w/o extension``*
+  *SIDE NOTE: DO NOT CLICK *``Package Path w/o extension``
 11. Back in Blender, paste this into the ``Package`` field.
 
 
