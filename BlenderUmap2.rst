@@ -21,6 +21,11 @@ Blender v3.y.z
 
 Any version past Blender 3.0.0 will work. You can download blender `here <https://www.blender.org/download/>`_
 
+Git
+---
+
+Git is a command-line tool used (in our case) to download Github repositories. Download it `here <https://git-scm.com/downloads>`_
+
 Python 3
 --------
 
@@ -48,10 +53,15 @@ Now that all of that is out of the way, lets get into the build phase.
 
 Downloading / Building the addon (for Free Github Users)
 ========================================================
-1.  Download the source code for BlenderUmap2 `here <https://github.com/MinshuG/BlenderUmap2/archive/refs/heads/better-materials.zip>`_
-2.  Extract the .zip file however you desire and enter the folder.
-3.  In the address bar at the top, click the blank space in it and type ``cmd``, and press enter.
-4.  Type the following command into the new Command Prompt window:
+1.  Make a new folder anywhere (I would recommend making it in your downloads) and enter it.
+2.  In the address bar at the top, click the blank space in it and type ``cmd``, and press enter.
+3.  Type the following command into the new Command Prompt window:
+
+>>> git clone https://github.com/MinshuG/BlenderUmap2.git --recursive
+
+4. Once that finishes, enter the new folder if needed to see ``make_release.py``.
+
+5. Now run this:
 
 >>> python make_release.py
 
