@@ -124,7 +124,7 @@ Here is the settings I use every time I do a porting project:
   ☑ Use Cube as Fallback Mesh (this can sometimes mess things up but I personally havent had any issues with it.)
   ☐ Use Generic Shader
 
-No need to do anything in ``Texture Mapping ``or ``Advanced Options``. Default is good.
+No need to do anything in ``Texture Mapping`` or ``Advanced Options``. Default is good.
 
 Troubleshooting
 ===============
