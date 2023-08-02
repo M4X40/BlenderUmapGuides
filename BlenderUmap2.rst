@@ -63,17 +63,23 @@ Downloading / Building the addon (for Free Github Users)
 2.  In the address bar at the top, click the blank space in it and type ``cmd``, and press enter.
 3.  Type the following command into the new Command Prompt window:
 
->>> git clone https://github.com/MinshuG/BlenderUmap2.git --recursive
+.. code::
+
+  git clone https://github.com/MinshuG/BlenderUmap2.git --recursive
 
 4. Once that finishes, enter the new folder if needed to see ``make_release.py``.
 
 5. Now run this:
 
->>> python make_release.py
+.. code::
+
+  python make_release.py
 
 Or if that doesn't work: 
 
->>> python3 make_release.py
+.. code::
+
+  python3 make_release.py
 
 5. Wait for this to finish. This **WILL** take a while
 6. In the new ``Release`` folder, delete the ``MacOSX`` and ``Linux`` zip files, and just leave the windows one. This is the one we want.
