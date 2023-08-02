@@ -93,7 +93,7 @@ Installation to Blender
 General Use
 ===========
 
-1. Click and drag this arrow to the left, opening this menu:
+1. Click and drag this arrow to the left, opening a menu:
  .. image:: ./image_assets/arrow.png
 2. Click the button the says ``Umap``.
 3. Enter your games path, AES key, export path (where you want dumped files to go), and UE Version.
