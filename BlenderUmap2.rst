@@ -12,7 +12,7 @@ For patrons, you can skip to `here <https://github.com/M4X40/BlenderUmapGuides/b
 
 I **HIGHLY RECCOMEND** to fully read this guide and not skip anything unless told explicitly so. This is for you, not to waste your time.
 
-*Side Note for Github Users: The building process only documents how to do it on windows. A MacOS / Linux guide may come at a later date, but is not guarenteed.*
+*Side Note for Github Users: The building process only documents how to do it on windows. A MacOS / Linux guide may come at a later date, but is not guaranteed.*
 
 ----
 
