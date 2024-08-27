@@ -26,6 +26,7 @@ Blender v3.y.z
 --------------
 
 Any version past Blender 3.0.0 will work. You can download blender `here <https://www.blender.org/download/>`_
+Blender 4 MIGHT work, depending on the version of BlenderUmap2.
 
 Git
 ---
