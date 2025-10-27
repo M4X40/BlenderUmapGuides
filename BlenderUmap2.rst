@@ -22,12 +22,10 @@ I **HIGHLY RECCOMEND** to fully read this guide and not skip anything unless tol
 
 Requirements
 ============
-Blender v3.y.z
+Blender (< 5)
 --------------
 
-Any version past Blender 3.0.0 will work. You can download blender `here <https://www.blender.org/download/>`_.
-
-Blender 4 MIGHT work, depending on the version of BlenderUmap2.
+Any version Blender 3 or 4 release will work. You can download blender `here <https://www.blender.org/download/>`_.
 
 Git
 ---
@@ -136,15 +134,19 @@ Here is the settings I use every time I do a porting project:
 
   ☐ Use UE Custom Version
   ☑ Read Materials
-  ☐ Export DDS When Possible
-  ☐ Export Building Foundations (this is a fortnite thing)
-  ☑ Export Hidden Actors
-  ☐ Dump Assets
-    Object Cache Size        0
+  ☐ Export Nanite
+  ☐ Export Sub Levels
+  ☑ Export hidden actors
+  ☐ Export Foliage
+  ☑ Export Lights
+  ☑ Export Spline
+    Object Cache Size        1000
+                (Note: depends on ram. General rule of thumb is to multiply your ram amount by 31.25)
   ☑ Reuse Maps
   ☑ Reuse Meshes
   ☑ Use Cube as Fallback Mesh (this can sometimes mess things up but I personally havent had any issues with it.)
   ☐ Use Generic Shader
+  ☑ Use Generic Shader As Fallback
 
 No need to do anything in ``Texture Mapping`` or ``Advanced Options``. Default is good.
 
