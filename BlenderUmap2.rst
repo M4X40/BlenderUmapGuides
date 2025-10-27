@@ -140,6 +140,10 @@ Here is the settings I use every time I do a porting project:
   ☐ Export Foliage
   ☑ Export Lights
   ☑ Export Spline
+
+  ☐ Export Landscape Only
+    Parallel Threads         24
+                (Note: depends on cpu Logical processors. General rule of thumb is to subtract 8 from your Logical processors)
     Object Cache Size        1000
                 (Note: depends on ram. General rule of thumb is to multiply your ram amount by 31.25)
   ☑ Reuse Maps
